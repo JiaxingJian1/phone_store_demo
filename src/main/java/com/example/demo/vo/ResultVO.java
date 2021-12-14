@@ -1,0 +1,11 @@
+package com.example.demo.vo;
+
+import com.sun.tools.hat.internal.parser.HprofReader;
+import lombok.Data;
+
+@Data
+public class ResultVO<T> {
+    private Integer code;
+    private String msg;
+    private T data;
+}
